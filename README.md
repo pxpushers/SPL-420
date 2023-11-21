@@ -10,8 +10,8 @@ SPL-420 is a new open-source, free & fair launch NFT standard made possible by L
    - **Image:** Upload the provided **HIGH RES** png inside the "mint-offchain" folder as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
    - **ROYALTIES:** Set to 0% **MANDATORY**
-   - **CREATORS:** ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b``` (Use the provided creator address within the creator.txt file.) **MANDATORY**
-   - **COLLECTION:** ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak``` (Use the provided collection address within the collection.txt file.) **MANDATORY**
+   - **CREATORS:** ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD``` (Use the provided creator address within the creator.txt file.) **MANDATORY**
+   - **COLLECTION:** ```BNtLxJevNQDk9sqxRN2Fvxq5yNPGZP1Ntow5m7snCMBu``` (Use the provided collection address within the collection.txt file.) **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.027 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
@@ -25,8 +25,8 @@ SPL-420 is a new open-source, free & fair launch NFT standard made possible by L
 - That's it!
 
 **PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
-- Create a new wallet to serve as the deploy wallet. Save the public address as creator.txt This will be used to index the collection. ```SOLSeeX8YX5TqmkRm1YgBEjdcrZ3q4pYXo8Hbom294b```
-- A master MCC NFT must be minted from this deploy wallet. Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft". Ensure the royalties are set to 0% for the collection for maximum tradability (we recommend minting some supply as the project creators instead of setting royalties). Save the mint ID of this master NFT as collection.txt This will also be used to index the collection. ```G4tVHkeptBw8bXXamYFbhw6wuwB1vnyS5XpGZDK78ak``` Choose an image that serves as the thumbnail for your collection on marketplaces.
+- Create a new wallet to serve as the deploy wallet. Save the public address as creator.txt This will be used to index the collection. ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD```
+- A master MCC NFT must be minted from this deploy wallet. Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft". Ensure the royalties are set to 0% for the collection for maximum tradability (we recommend minting some supply as the project creators instead of setting royalties). Save the mint ID of this master NFT as collection.txt This will also be used to index the collection. ```BNtLxJevNQDk9sqxRN2Fvxq5yNPGZP1Ntow5m7snCMBu``` Choose an image that serves as the thumbnail for your collection on marketplaces.
 - Make two copies of your NFT collection images, one at 1:1 pixel dimensions and one high res. Put the 1:1px image files inside a folder named "inscribe-onchain" and put the high res image files inside a folder name "mint-offchain".
 - Fork this repo and create a pull request after adding a folder with your collection name and the following files inside. Collection names must be unique but there is no character limit. Do not change anything else aside from adding your folder or your PR will be rejected.
    - collection.txt
@@ -40,3 +40,4 @@ SPL-420 is a new open-source, free & fair launch NFT standard made possible by L
    - Inscribe the MCC image file!
    - Now that is complete and you can close the inscribe window. Click the magnifying glass on the inscription and set it to immutable. If you accidentally locked up too much rent you can reclaim it here, but only while it is mutable, once you make it immutable you can never claim back the rent.
 - That's it! Your SPL-420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
+- Visit create.tensor.trade to submit your collection after you verify your hash list via the LibrePlex team!
