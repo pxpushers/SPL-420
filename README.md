@@ -7,9 +7,9 @@ Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the
 
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
-- Grab your favorite image from the "inscribe-onchain" folder & ensure it isn't already inscribed using Libreplex's tool here https://
+- Grab your favorite image from the "images" or "highres-offchain" folder & ensure it isn't already inscribed 
 - If it is not yet inscribed, use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
-   - **Image:** Upload the provided **HIGH RES** png inside the "mint-offchain" folder as the main NFT image. **THIS STEP IS MANDATORY**
+   - **Image:** Upload the unique image as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **CREATORS:** ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD``` (Use the provided creator address within the creator.txt file.) **MANDATORY**
@@ -19,8 +19,8 @@ Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
    - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-420 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
-   - **IMPORTANT** Choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Do not inscribe the HIGH RES image or you'll be overcharged for rent. 
-   - Once you update the final byte size displayed should be anywhere from 500b-2kb. Click Resize to change the account size and the rent will be reduced (no one receives this fee, it gets locked away forever). Be careful not to lock your SOL this way by inscribing the wrong image.
+   - **IMPORTANT** If the project requries a low-res on-chain image, choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Or if there is only an "images" folder, skip to the next step.
+   - Click Resize to change the account size and rent will be charged depending on the file size of the image (no one receives this fee, it gets locked away forever). Be careful not to lock your SOL this way by inscribing the wrong image.
    - Click Inscribe to add the image data on chain.
    - Now that is complete and you can close the inscribe window. Click the magnifying glass. First ensure you see the image is being displayed properly on-chain. If it does you can set it to immutable!
    - If you did something wrong, go back to the upload and re-upload the png file, click update image, then resize, then inscribe again, then had back to the scanner to reclaim the rent. THEN you can make it immutable. Once you make it immutable you can never claim the rent back.
@@ -29,7 +29,7 @@ Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the
 **PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
 - Create a new wallet to serve as the deploy wallet. Save the public address as creator.txt This will be used to index the collection. ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD```
 - A master MCC NFT must be minted from this deploy wallet. Use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft". Ensure the royalties are set to 0% for the collection for maximum tradability (we recommend minting some supply as the project creators instead of setting royalties). Save the mint ID of this master NFT as collection.txt This will also be used to index the collection. ```BNtLxJevNQDk9sqxRN2Fvxq5yNPGZP1Ntow5m7snCMBu``` Choose an image that serves as the thumbnail for your collection on marketplaces.
-- Make two copies of your NFT collection images, one at 1:1 pixel dimensions and one high res. Put the 1:1px image files inside a folder named "inscribe-onchain" and put the high res image files inside a folder name "mint-offchain".
+- Make two copies of your NFT collection images, one at 1:1 pixel dimensions and one high res. Put the 1:1px image files inside a folder named "inscribe-onchain" and put the high res image files inside a folder name "highres-offchain". Or if your artwork is not a large file size you can just put a single copy of the collection inside a folder called "images".
 - Fork this repo and create a pull request after adding a folder with your collection name and the following files inside. Collection names must be unique but there is no character limit. Do not change anything else aside from adding your folder or your PR will be rejected.
    - collection.txt
    - creator.txt
