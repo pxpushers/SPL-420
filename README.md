@@ -3,6 +3,8 @@ SPL-420 is a new open-source, free & fair launch NFT standard made possible by L
 
 Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below. These standards are in place so that the tokens are immediately tradable after mint on traditional Solana secondary marketplaces with our without inscription integration such as https://tensor.trade or https://magiceden.io
 
+Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL!
+
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
 - Grab your favorite image from the "inscribe-onchain" folder & ensure it isn't already inscribed using Libreplex's tool here https://
