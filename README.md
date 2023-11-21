@@ -10,7 +10,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
 
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
-- Grab your favorite image from the "images" or "highres-offchain" folder & ensure it isn't already inscribed 
+- Grab your favorite image from the "images" or "highres-offchain" folder & ensure it isn't already inscribed (LibrePlex will build a tool for this soon, for now it can be done manually by browsing inscriptions @ https://www.libreplex.io/inscriptions
 - If it is not yet inscribed, use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
    - **Image:** Upload the unique image as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
