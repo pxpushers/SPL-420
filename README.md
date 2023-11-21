@@ -1,4 +1,4 @@
-# SPL420 Meta-Protocol
+# SPL-420 Meta-Protocol
 SPL-420 Standard for the Solscriptions Meta Protocol
 
 SPL-420 is a new open-source, free & fair launch NFT standard made possible by LibrePlex Solscriptions. Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below. These standards are in place so that the tokens are immediately tradable after mint on traditional Solana secondary marketplaces with our without inscription integration such as https://tensor.trade or https://magiceden.io
