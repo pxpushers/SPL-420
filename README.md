@@ -19,7 +19,7 @@ Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
    - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-420 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
-   - **IMPORTANT** Choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Make sure to click update image after or it will not register the new file and it will instead inscribe the HIGH RES image and you'll be overcharged for rent. Do not inscribe the HIGH RES image.
+   - **IMPORTANT** Choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Do not inscribe the HIGH RES image or you'll be overcharged for rent. 
    - Once you update the final byte size displayed should be anywhere from 500b-2kb. Click Resize to change the account size and the rent will be reduced (no one receives this fee, it gets locked away forever). Be careful not to lock your SOL this way by inscribing the wrong image.
    - Click Inscribe to add the image data on chain.
    - Now that is complete and you can close the inscribe window. Click the magnifying glass. First ensure you see the image is being displayed properly on-chain. If it does you can set it to immutable!
@@ -37,7 +37,6 @@ Additionally, anyone can mint an SPL-420 NFT on a first is first basis, only the
    - Inscribe the MCC collection NFT https://www.libreplex.io/inscriptions by clicking "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFT in your wallet. On the MCC NFT click the button that says "Create Inscription".
    - Intialize the inscription account.
    - Inscribe your MCC NFT image or a low-res version at your discretion.
-   - Click update image or it will not register the newly uploaded file and you may be overcharged for rent.
    - Resize the account to fit the low res file.
    - Inscribe the MCC image file!
    - Now that is complete and you can close the inscribe window. Click the magnifying glass on the inscription and set it to immutable. If you accidentally locked up too much rent you can reclaim it here, but only while it is mutable, once you make it immutable you can never claim back the rent.
