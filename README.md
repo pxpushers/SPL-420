@@ -14,6 +14,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
 - If it is not yet inscribed, use "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
    - **Image:** Upload the unique image as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
+   - SYMBOL: ```YOLO``` ***OPTIONAL***
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **CREATORS:** ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD``` (Use the provided creator address within the creator.txt file. Leave "shares" as default.) **MANDATORY** You cannot remove your address so add it as a second creator with 0% shares.
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
