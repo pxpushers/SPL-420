@@ -15,7 +15,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - **Image:** Upload the unique image as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
    - **ROYALTIES:** Set to 0% **MANDATORY**
-   - **CREATORS:** ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD``` (Use the provided creator address within the creator.txt file. Leave "shares" as default.) **MANDATORY**
+   - **CREATORS:** ```YoLoPJ4Vg7i3stQ77K5tyq7gd5hUsxcDjooaRV8LzbD``` (Use the provided creator address within the creator.txt file. Leave "shares" as default.) **MANDATORY** You cannot remove your address so add it as a second creator with 0% shares.
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.027 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
