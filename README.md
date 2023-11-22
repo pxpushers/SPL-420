@@ -5,9 +5,6 @@ Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protoc
 
 Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL!
 
-# YOLOMIGOS 
-![](yolomigos.png)
-
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
 - Grab your favorite image from the "images" or "highres-offchain" folder & ensure it isn't already inscribed (LibrePlex will build a tool for this soon, for now it can be done manually by browsing inscriptions @ https://www.libreplex.io/inscriptions
@@ -44,3 +41,5 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - Now that is complete and you can close the inscribe window. Click the magnifying glass on the inscription and set it to immutable. If you accidentally locked up too much rent you can reclaim it here, but only while it is mutable, once you make it immutable you can never claim back the rent.
 - That's it! Your SPL-420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
 - Visit create.tensor.trade to submit your collection after you verify your hash list via the LibrePlex team!
+
+![](yolomigos.png)
