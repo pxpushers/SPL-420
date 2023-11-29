@@ -35,4 +35,6 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
 - **WARNING** PROJECT CREATORS ARE RESPONSIBLE FOR INDEXING THEIR OWN COLLECTION. CURRENTLY THERE IS NO BYTE-PERFECT IMAGE HASH CHECKER FOR SOLANA INSCRIPTIONS. SO USING THIS META-PROTOCOL IS EXTREMELY DIFFICULT TO INDEX UNTIL A TOOL IS BUILT FOR THIS.
 - Visit create.tensor.trade and/or creators.magiceden.io to submit your collection after you verify your hash list!
 
+If you'd like assistance launching your SPL-420 collection we can help! Just hop on the PixelPushers Discord: https://discord.com/invite/RgtFus49A2
+
 ![](yolomigos.png)
