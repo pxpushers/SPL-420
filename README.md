@@ -5,7 +5,7 @@ Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protoc
 
 Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
 
-**PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
+## **PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
 - Create a new wallet to serve as the deploy wallet.
 - Optimize your images so that they are as small of a file size as possible, suggested pixel dimensions at least 300x300px. Suggested file size ~1kb.
 - Put your image files inside a folder named "images".
@@ -15,7 +15,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
 - **WARNING** PROJECT CREATORS ARE RESPONSIBLE FOR INDEXING THEIR OWN COLLECTION. CURRENTLY THERE IS NO BYTE-PERFECT IMAGE HASH CHECKER FOR SOLANA INSCRIPTIONS. SO USING THIS META-PROTOCOL IS EXTREMELY DIFFICULT TO INDEX UNTIL A TOOL IS BUILT FOR THIS.
 - Visit create.tensor.trade and/or creators.magiceden.io to submit your collection after you verify your hash list!
 
-**TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
+## **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
 - Grab your favorite image from the "images" folder & ensure it isn't already inscribed **(Currently there is no tool on Solana that enables this)**
 - If it is not yet inscribed, use "https://solscribe.io" (recommended) or "https://launchmynft.io/tools/mint" or "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
