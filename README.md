@@ -3,7 +3,7 @@ SPL-420 is an open-source, fair launch NFT meta-protocol for Solscription digita
 
 Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below.
 
-Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL!
+Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested. (You can only choose one of these options, not both combined).
 
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
@@ -13,7 +13,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
    - SYMBOL: ```YOLO``` ***OPTIONAL***
    - DESCRIPTION: ```YOLO``` ***OPTIONAL***
-   - **ROYALTIES:** Set to 0% **MANDATORY**
+   - **ROYALTIES:** Set to 0% (or the project's royalty %) **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.023 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
