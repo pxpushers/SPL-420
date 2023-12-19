@@ -3,7 +3,7 @@
 
 Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below.
 
-Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
+Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
 
 ## **PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
 - Create a new wallet to serve as the deploy wallet.
