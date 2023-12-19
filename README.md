@@ -15,7 +15,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - DESCRIPTION: ```YOLO``` ***OPTIONAL***
    - **ROYALTIES:** Set to 0% **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
-- Mint the NFT for 0.027 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
+- Mint the NFT for 0.023 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
    - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-420 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
