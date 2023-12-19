@@ -1,13 +1,23 @@
 # SPL-420 Meta-Protocol
-SPL-420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
+## SPL-420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
 
 Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below.
 
 Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
 
+**PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
+- Create a new wallet to serve as the deploy wallet.
+- Optimize your images so that they are as small of a file size as possible, suggested pixel dimensions at least 300x300px. Suggested file size ~1kb.
+- Put your image files inside a folder named "images".
+- Fork this repo and create a pull request after adding a folder with your collection images inside. Collection names must be unique (not case sensitive) so that you don't overwrite another collection folder. Do not change anything else aside from adding your folder or your PR will be rejected.
+- Once the PR has been merged the information is made public and you can launch whenever you like!
+- That's it! Your SPL-420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
+- **WARNING** PROJECT CREATORS ARE RESPONSIBLE FOR INDEXING THEIR OWN COLLECTION. CURRENTLY THERE IS NO BYTE-PERFECT IMAGE HASH CHECKER FOR SOLANA INSCRIPTIONS. SO USING THIS META-PROTOCOL IS EXTREMELY DIFFICULT TO INDEX UNTIL A TOOL IS BUILT FOR THIS.
+- Visit create.tensor.trade and/or creators.magiceden.io to submit your collection after you verify your hash list!
+
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
-- Grab your favorite image from the "images" or "highres-offchain" folder & ensure it isn't already inscribed **(Currently there is no tool on Solana that enables this)**
+- Grab your favorite image from the "images" folder & ensure it isn't already inscribed **(Currently there is no tool on Solana that enables this)**
 - If it is not yet inscribed, use "https://solscribe.io" (recommended) or "https://launchmynft.io/tools/mint" or "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
    - **Image:** Upload the unique image as the main NFT image. **THIS STEP IS MANDATORY**
    - **Name:** ```YOLOMIGOS #4268``` (Replace "4268" with the number exactly as it appears in the png file name from 0-4268). **MANDATORY**
@@ -25,15 +35,6 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - Now that is complete and you can close the inscribe window. Click the magnifying glass. First ensure you see the image is being displayed properly on-chain. If it does you can set it to immutable!
    - If you did something wrong, go back to the upload and re-upload the png file, click update image, then resize, then inscribe again, then had back to the scanner to reclaim the rent. THEN you can make it immutable. Once you make it immutable you can never claim the rent back.
 - That's it! If you inscribed the first version of that unique image, your inscription will be valid!
-
-**PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
-- Create a new wallet to serve as the deploy wallet.
-- Make two copies of your NFT collection images, one at 1:1 pixel dimensions and one high res. Put the 1:1px image files inside a folder named "inscribe-onchain" and put the high res image files inside a folder name "highres-offchain". Or if your artwork is not a large file size you can just put a single copy of the collection inside a folder called "images".
-- Fork this repo and create a pull request after adding a folder with your collection images inside. Collection names must be unique but there is no character limit. Do not change anything else aside from adding your folder or your PR will be rejected.
-- Once the PR has been merged the information is made public and you can launch whenever you like! We suggest minting some yourselves as the team allocation not exceeding 10% of the supply (following the above instructions).
-- That's it! Your SPL-420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
-- **WARNING** PROJECT CREATORS ARE RESPONSIBLE FOR INDEXING THEIR OWN COLLECTION. CURRENTLY THERE IS NO BYTE-PERFECT IMAGE HASH CHECKER FOR SOLANA INSCRIPTIONS. SO USING THIS META-PROTOCOL IS EXTREMELY DIFFICULT TO INDEX UNTIL A TOOL IS BUILT FOR THIS.
-- Visit create.tensor.trade and/or creators.magiceden.io to submit your collection after you verify your hash list!
 
 If you'd like assistance launching your SPL-420 collection we can help! Just hop on the PixelPushers Discord: https://discord.com/invite/RgtFus49A2
 
