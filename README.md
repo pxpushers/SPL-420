@@ -3,7 +3,7 @@ SPL-420 is an open-source, fair launch NFT meta-protocol for Solscription digita
 
 Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below.
 
-Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested. (You can only choose one of these options, not both combined).
+Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive value from your project and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
 
 **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
