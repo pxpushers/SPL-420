@@ -27,7 +27,7 @@ Additionally, anyone can mint an SPL420 NFT on a **first is first** basis, only 
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.023 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
 - Head to https://www.libreplex.io/inscriptions to inscribe the SPL420 NFT.
-   - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-420 NFT you just made click the button that says "Create Inscription".
+   - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL420 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
    - **IMPORTANT** If the project requries a low-res on-chain image, choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Or if there is only an "images" folder, skip to the next step.
    - Click Resize to change the account size and rent will be charged depending on the file size of the image (no one receives this fee, it gets locked away forever). Be careful not to lock your SOL this way by inscribing the wrong image.
@@ -36,6 +36,6 @@ Additionally, anyone can mint an SPL420 NFT on a **first is first** basis, only 
    - If you did something wrong, go back to the upload and re-upload the png file, click update image, then resize, then inscribe again, then had back to the scanner to reclaim the rent. THEN you can make it immutable. Once you make it immutable you can never claim the rent back.
 - That's it! If you inscribed the first version of that unique image, your inscription will be valid!
 
-If you'd like assistance launching your SPL-420 collection we can help! Just hop on the PixelPushers Discord: https://discord.com/invite/RgtFus49A2
+If you'd like assistance launching your SPL420 collection we can help! Just hop on the PixelPushers Discord: https://discord.com/invite/RgtFus49A2
 
 ![](yolomigos.png)
