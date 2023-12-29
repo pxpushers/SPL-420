@@ -1,21 +1,21 @@
-# SPL-420 Meta-Protocol
-### SPL-420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
+# SPL420 Meta-Protocol
+### SPL420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
 
-Anyone can deploy an SPL-420 NFT collection as long as they adhere to the protocol specifications below.
+Anyone can deploy an SPL420 NFT collection as long as they adhere to the protocol specifications below.
 
-Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
+Additionally, anyone can mint an SPL420 NFT on a **first is first** basis, only the first byte perfect image inscribed will be indexed in the official collection, don't mint duplicates or you'll be wasting your SOL! For project creators we recommend minting your own allocation of no more than 10% of the supply to derive and have shared incentives with holders. Or if you don't have the capital to mint your own supply then a small secondary royalty % is suggested between 0.1-3%. (You can only choose one of these options, not both combined).
 
-## **PROJECT CREATORS** if you are creating an SPL-420 fair mint NFT collection follow these instructions:
+## **PROJECT CREATORS** if you are creating an SPL420 fair mint NFT collection follow these instructions:
 - Create a new wallet to serve as the deploy wallet.
 - Optimize your images so that they are as small of a file size as possible, suggested pixel dimensions at least 300x300px. Suggested file size ~1kb.
 - Put your image files inside a folder named "images".
 - Fork this repo and create a pull request after adding a folder with your collection images inside. Collection names must be unique (not case sensitive) so that you don't overwrite another collection folder. Do not change anything else aside from adding your folder or your PR will be rejected.
 - Once the PR has been merged the information is made public and you can launch whenever you like!
-- That's it! Your SPL-420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
+- That's it! Your SPL420 NFT collection is officially fair-launched and any solscriptions enjoyers can begin minting.
 - **WARNING** PROJECT CREATORS ARE RESPONSIBLE FOR INDEXING THEIR OWN COLLECTION. CURRENTLY THERE IS NO BYTE-PERFECT IMAGE HASH CHECKER FOR SOLANA INSCRIPTIONS. SO USING THIS META-PROTOCOL IS EXTREMELY DIFFICULT TO INDEX UNTIL A TOOL IS BUILT FOR THIS.
 - Visit create.tensor.trade and/or creators.magiceden.io to submit your collection after you verify your hash list!
 
-## **TOKEN MINTERS** if you are looking to mint a newly launched SPL-420 fair launch NFT follow these instructions:
+## **TOKEN MINTERS** if you are looking to mint a newly launched SPL420 fair launch NFT follow these instructions:
 - Go to the collections folder in this repo and find the folder of the collection you want to mint, it will contain all the files you need.
 - Grab your favorite image from the "images" folder & ensure it isn't already inscribed **(Currently there is no tool on Solana that enables this)**
 - If it is not yet inscribed, use "https://solscribe.io" (recommended) or "https://launchmynft.io/tools/mint" or "https://biblio.tech/" or "https://sol-tools.tonyboyle.io/nft-tools/create-nft" to mint a new NFT with the following metadata parameters.
@@ -26,7 +26,7 @@ Additionally, anyone can mint an SPL-420 NFT on a **first is first** basis, only
    - **ROYALTIES:** Set to 0% (or the project's royalty %) **MANDATORY**
    - **MUTABILITY:** False / Off (Check advanced settings for this on Sol-Tools or toggle off for Biblio). **MANDATORY**
 - Mint the NFT for 0.023 SOL (This is a MetaPlex fee. In the future we will transition to LibrePlex NFT standard which is free of protocol level fees like this).
-- Head to https://www.libreplex.io/inscriptions to inscribe the SPL-420 NFT.
+- Head to https://www.libreplex.io/inscriptions to inscribe the SPL420 NFT.
    - Click "Inscribe Yours" > "Use Wallet Contents" > "Fetch Mints" to load the NFTs in your wallet. On the SPL-420 NFT you just made click the button that says "Create Inscription".
    - Initialize the inscription account.
    - **IMPORTANT** If the project requries a low-res on-chain image, choose custom and upload the 1:1 pixel dimension version of the png file provided in the "inscribe-onchain" folder (matching the filename of the highres). Or if there is only an "images" folder, skip to the next step.
