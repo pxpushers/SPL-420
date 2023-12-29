@@ -1,5 +1,5 @@
 # SPL420 Meta-Protocol
-### SPL420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
+### SPL420 is an open-source, fair launch NFT meta-protocol for Solscription digital art collections. Inspired by Ordinal Inscription collections such as Bitcoin Frogs **NOT IN ANY WAY AFFILIATED WITH SOLANA LABS OR PART OF THE SOLANA PROGRAM LIBRARY.**
 
 Anyone can deploy an SPL420 NFT collection as long as they adhere to the protocol specifications below.
 
